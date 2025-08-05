@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <title>Размерная_сетка</title>
+    <link rel="stylesheet" href="/css/default.css" />
+    <link rel="stylesheet" href="/css/Projects/size-charts/size-charts.css" />
+  </head>
+  <body>
+    <div class="link-home-cont">
+      <a href="/index.html" class="link-home">to Home</a>
+    </div>
+
+    <div class="container-text">
+      <h1 class="text-size">Размерная_сетка</h1>
+    </div>
+
+    <ul class="list-size-type">
+      <li class="item-size-type">
+        <button class="btn-item-size-type" value="Ft">Ft</button>
+      </li>
+      <li class="item-size-type">
+        <button class="btn-item-size-type" value="Cm">Cm</button>
+      </li>
+    </ul>
+
+    <ul class="list-chart">
+      <li>
+        <button value="S" class="btn-item-chart btn-chart-active">S</button>
+      </li>
+      <li>
+        <button value="M" class="btn-item-chart">M</button>
+      </li>
+      <li>
+        <button value="L" class="btn-item-chart">L</button>
+      </li>
+      <li>
+        <button value="XL" class="btn-item-chart">XL</button>
+      </li>
+      <li>
+        <button value="XXL" class="btn-item-chart">XXL</button>
+      </li>
+    </ul>
+
+    <div class="text-content-container">
+      <p class="size-content" id="chestInter"></p>
+      <p class="size-content" id="hipInter"></p>
+      <p class="size-content" id="stretchInter"></p>
+    </div>
+
+    <script
+      type="module"
+      src="/js/Projects/size-charts/size-charts.js"
+    ></script>
+  </body>
+</html>

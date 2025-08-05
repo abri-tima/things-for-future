@@ -1,0 +1,20 @@
+.container-projects {
+  margin: 50px;
+}
+
+.list-projects {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 50px;
+}
+
+.link-item-projects {
+  font-size: 20px;
+}
+
+.text-list {
+  text-decoration: underline;
+}
