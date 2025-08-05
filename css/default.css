@@ -46,3 +46,8 @@ input, select {
     outline: none;
     margin: 0 auto;
 }
+
+.link-home-cont {
+  font-size: 20px;
+  margin: 30px;
+}
