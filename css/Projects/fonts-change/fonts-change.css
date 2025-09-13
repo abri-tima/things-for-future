@@ -1,0 +1,78 @@
+.text-title-container {
+  margin-top: 30px;
+}
+
+.text-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.buttons-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.button-font {
+  padding: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: #cecece;
+  color: #080808;
+  border-radius: 40px;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.button-font:hover {
+  background-color: lightgreen;
+  color: #000;
+}
+
+.button-font:focus {
+  background-color: lightgreen;
+  color: #000;
+}
+
+.button-font:active {
+  background-color: lightgreen;
+  color: #000;
+}
+
+.input-container {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-font-show {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    transition: border 250ms ease-in-out;
+}
+
+.input-font-show:hover {
+    border: 2px solid lightgreen;
+}
+
+.text-show-container {
+    padding-top: 100px;
+}
+
+.text-show {
+    font-size: 40px;
+    text-align: center;
+}
