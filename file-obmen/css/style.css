@@ -1,0 +1,90 @@
+.text-title-container {
+  margin-top: 30px;
+}
+
+.text-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.form-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.label-input {
+  font-size: 20px;
+}
+
+.input-username-container {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-username {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 50px;
+  transition: border 250ms ease-in-out;
+}
+
+.input-username:hover {
+  border: 2px solid #ee6700;
+}
+
+.input-username:focus {
+  border: 2px solid lightgreen;
+}
+
+.input-username:active {
+  border: 2px solid lightgreen;
+}
+
+.input-file-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-file {
+    font-size: 20px;
+}
+
+.button-download {
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ee6700;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.button-download:hover {
+  background-color: lightgreen;
+  color: #000;
+}
+
+.upload-success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
