@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/default.css" />
+    <title>Файлообменник</title>
+  </head>
+  <body>
+    <div class="text-title-container">
+      <h1 class="text-title">Файлообменник</h1>
+    </div>
+
+    <form
+      action="php/upload-file.php"
+      method="post"
+      enctype="multipart/form-data"
+      class="form-input"
+    >
+      <div class="input-username-container">
+        <label class="label-input">Ваше имя:</label>
+        <input
+          type="text"
+          name="username"
+          required
+          class="input-username"
+        /><br /><br />
+      </div>
+
+      <div class="input-file-container">
+        <label class="label-input">Выберите файл:</label>
+        <input
+          type="file"
+          name="fileToUpload"
+          required
+          class="input-file"
+        /><br /><br />
+      </div>
+
+      <button type="submit" class="button-download">Загрузить</button>
+    </form>
+
+    <script src="/js/file-obm.js"></script>
+  </body>
+</html>
